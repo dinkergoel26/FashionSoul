@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="app_name">FashionSoul</string>
+
+    <!-- Activity Titles -->
+    <string formatted="false" name="productsDSItemFormActivity"></string>
+    <string formatted="false" name="trousersFilterActivity">Trousers</string>
+    <string formatted="false" name="shirtsFilterActivity">Shirts</string>
+    <string formatted="false" name="tiesFilterActivity">Ties</string>
+    <string formatted="false" name="fashionSoulMain">FashionSoul</string>
+    <string formatted="false" name="storeCatalogScreen1Activity">FASHION STORE</string>
+    <string formatted="false" name="jacketsActivity">Jackets</string>
+    <string formatted="false" name="trousersActivity">Trousers</string>
+    <string formatted="false" name="shirtsActivity">Shirts</string>
+    <string formatted="false" name="tiesActivity">Ties</string>
+</resources>
+
+

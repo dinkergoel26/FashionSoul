@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ibm.mobileappbuilder.storecatalog20150911132549" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".MyApplication">
+
+        <activity android:name="com.ibm.mobileappbuilder.storecatalog20150911132549.ui.ProductsDSItemFormActivity"
+            android:label="@string/productsDSItemFormActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storecatalog20150911132549.ui.TrousersFilterActivity"
+            android:label="@string/trousersFilterActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storecatalog20150911132549.ui.ShirtsFilterActivity"
+            android:label="@string/shirtsFilterActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storecatalog20150911132549.ui.TiesFilterActivity"
+            android:label="@string/tiesFilterActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storecatalog20150911132549.ui.FashionSoulMain"
+            android:label="@string/fashionSoulMain"
+            android:theme="@style/AppTheme.Drawer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+      </activity>
+        <activity android:name="com.ibm.mobileappbuilder.storecatalog20150911132549.ui.StoreCatalogScreen1Activity"
+            android:label="@string/storeCatalogScreen1Activity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storecatalog20150911132549.ui.JacketsActivity"
+            android:label="@string/jacketsActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storecatalog20150911132549.ui.JacketsDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storecatalog20150911132549.ui.TrousersActivity"
+            android:label="@string/trousersActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storecatalog20150911132549.ui.TrousersDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storecatalog20150911132549.ui.ShirtsActivity"
+            android:label="@string/shirtsActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storecatalog20150911132549.ui.ShirtsDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storecatalog20150911132549.ui.TiesActivity"
+            android:label="@string/tiesActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.storecatalog20150911132549.ui.TiesDetailActivity"
+        />
+        <activity
+            android:name=".ui.LoginActivity"
+            android:theme="@style/NoActionBar"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.worklight.wlclient.ui.UIActivity"/>
+    </application>
+
+</manifest>
